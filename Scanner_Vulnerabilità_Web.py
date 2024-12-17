@@ -72,22 +72,22 @@ root.geometry("450x300")
 root.configure(bg='#ececec')
 
 # LAYOUT INTERFACCIA
-tk.Label(root, text="Inserisci l'URL da scansionare:", bg='#ececec', fg='black', font=('BigNoodleTitling', 16)).pack(pady=10)
+tk.Label(root, text="Inserisci l'URL da scansionare:", bg='#ececec', fg='black', font=('JetBrainsMonoNL-Thin', 12)).pack(pady=10)
 
-url_entry = tk.Entry(root, width=50, bg='white', fg='black', font=('BigNoodleTitling', 16))
+url_entry = tk.Entry(root, width=50, bg='white', fg='black', font=('JetBrainsMonoNL-Thin', 14))
 url_entry.pack(pady=5)
 
 # FRAME BUTTONS
 button_frame = tk.Frame(root, bg='#ececec')
 button_frame.pack(pady=20)
 
-scan_button = tk.Button(button_frame, text="Scansiona", command=scan_vulnerability, bg='lightblue', fg='black', font=('BigNoodleTitling', 16))
+scan_button = tk.Button(button_frame, text="Scansiona", command=scan_vulnerability, bg='lightblue', fg='black', font=('JetBrainsMonoNL-Thin', 12))
 scan_button.pack(side=tk.LEFT, padx=5)
 
-reset_button = tk.Button(button_frame, text="Reset", command=reset_fields, bg='lightcoral', fg='black', font=('BigNoodleTitling', 16))
+reset_button = tk.Button(button_frame, text="Reset", command=reset_fields, bg='lightcoral', fg='black', font=('JetBrainsMonoNL-Thin', 12))
 reset_button.pack(side=tk.LEFT, padx=5)
 
-result_label = tk.Label(root, bg='#ececec', fg='black', font=('BigNoodleTitling', 16), justify='left')
+result_label = tk.Label(root, bg='#ececec', fg='black', font=('JetBrainsMonoNL-Thin', 12), justify='left')
 result_label.pack(pady=10)
 
 # BINDING DEL TASTO INVIO SACNSIONE E RESET
