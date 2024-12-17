@@ -43,7 +43,8 @@ Se la risposta contiene errori relativi a SQL, viene segnalata una possibile vul
 • Viene inviata una richiesta GET all'URL con un payload di test XSS (<script>alert('XSS')</script>).
 Se il payload appare nella risposta, viene segnalata una possibile vulnerabilità XSS.
 
-<img width="445" alt="Anteprima Scanner Vulnerabilità Web" src="https://github.com/user-attachments/assets/214aab7b-42f3-4681-bee4-a740d70e37c2" />
+<img width="445" alt="Anteprima Scanner Vulnerabilità Web" src="https://github.com/user-attachments/assets/9badff36-bb27-4dfb-b66f-ddf26b95cc98" />
+
 
 Utilizzo Responsabile: Questo scanner è solo a scopo didattico. 
 
